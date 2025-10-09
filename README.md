@@ -1,1 +1,0 @@
-# AKPsi_SWE_Career_Plan_RudraChauhan
