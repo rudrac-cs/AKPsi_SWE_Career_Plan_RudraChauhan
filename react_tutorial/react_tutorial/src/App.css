@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #282c34;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
+
+.accent-button {
+  background-color: #c62828;
+}
+
+.prom-pic {
+  width: 80%;
+  max-width: 380px;
+  height: 240px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.fun-fact {
+  margin: 0;
+}
